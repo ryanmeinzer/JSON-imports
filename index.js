@@ -1,13 +1,15 @@
 const data = require('./data.json')
 
+console.log(data)
+
 // // convert an object (or an array) into JSON string data
-// let myJSON = JSON.stringify(data)
+let myJSON = JSON.stringify(data)
 
 // // convert JSON string data into an object
 // let myObj = JSON.parse(myJSON)
 
-console.log(data)
-// console.log(myJSON)
+// console.log(data)
+console.log(myJSON)
 // console.log(myObj)
 
 function printNames(data) {
